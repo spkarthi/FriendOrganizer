@@ -11,6 +11,7 @@ namespace FriendOrganizer.UI.Data
     {
         public IEnumerable<Friend> GetAll()
         {
+            //TODO: later get the data from the database using Entity Framework
             yield return new Friend { FirstName = "Karthik", LastName = "Swamy", Email = "kswamy@cquest.us" };
             yield return new Friend { FirstName = "Yasoda", LastName = "Swamy", Email = "yasoda@cquest.us" };
             yield return new Friend { FirstName = "Ajay", LastName = "Swamy", Email = "ajay@cquest.us" };

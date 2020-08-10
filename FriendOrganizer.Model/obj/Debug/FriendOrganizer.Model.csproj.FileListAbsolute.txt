@@ -1,6 +1,5 @@
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.dll
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.pdb
-C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csprojAssemblyReference.cache
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csproj.CoreCompileInputs.cache
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.dll
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.pdb

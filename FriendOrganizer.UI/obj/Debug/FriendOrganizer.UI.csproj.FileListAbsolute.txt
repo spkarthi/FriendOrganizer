@@ -16,3 +16,12 @@ C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendO
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.csproj.CopyComplete
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.exe
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.dll
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.pdb
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.xml
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\System.Threading.Tasks.Extensions.xml
