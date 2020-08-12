@@ -1,21 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using FriendOrganizer.DataAccess;
 using FriendOrganizer.Model;
 
 namespace FriendOrganizer.UI.Data
 {
     public class FriendDataService : IFriendDataService
     {
+        private Func<FriendOrganizerDbContext> _contextCreator;
+
+        public FriendDataService(Func<FriendOrganizerDbContext> contextCreator)
+        {
+            _contextCreator = contextCreator;
+        }
         public IEnumerable<Friend> GetAll()
         {
             //TODO: later get the data from the database using Entity Framework
-            yield return new Friend { FirstName = "Karthik", LastName = "Swamy", Email = "kswamy@cquest.us" };
-            yield return new Friend { FirstName = "Yasoda", LastName = "Swamy", Email = "yasoda@cquest.us" };
-            yield return new Friend { FirstName = "Ajay", LastName = "Swamy", Email = "ajay@cquest.us" };
-            yield return new Friend { FirstName = "Shashu", LastName = "Swamy", Email = "shashu@cquest.us" };
+            using (var ctx = _contextCreator())
+            {
+                return ctx.Friends.AsNoTracking().ToList();
+            }
         }
     }
 }

@@ -25,3 +25,10 @@ C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.dll
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.dll
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.pdb
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.dll.config
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.xml
+C:\Users\spkar\source\repos\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml
