@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
+using System.Threading.Tasks;
 using FriendOrganizer.DataAccess;
 using FriendOrganizer.Model;
 
@@ -14,12 +16,13 @@ namespace FriendOrganizer.UI.Data
         {
             _contextCreator = contextCreator;
         }
-        public IEnumerable<Friend> GetAll()
+
+        public async Task<IEnumerable<Friend>> GetAllAsync()
         {
             //TODO: later get the data from the database using Entity Framework
             using (var ctx = _contextCreator())
             {
-                return ctx.Friends.AsNoTracking().ToList();
+                return await ctx.Friends.AsNoTracking().ToListAsync();
             }
         }
     }
