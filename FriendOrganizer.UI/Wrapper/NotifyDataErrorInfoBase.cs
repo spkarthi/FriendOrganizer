@@ -4,11 +4,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Windows.Media;
 
 namespace FriendOrganizer.UI.Wrapper
 {
-    public class NotifyDataErrorInfoBase : ViewModelBase , INotifyDataErrorInfo
+    public class NotifyDataErrorInfoBase : ViewModelBase, INotifyDataErrorInfo
     {
         private Dictionary<string, List<string>> _errorsByPropertyName = new Dictionary<string, List<string>>();
         public bool HasErrors => _errorsByPropertyName.Any();
@@ -21,6 +20,7 @@ namespace FriendOrganizer.UI.Wrapper
                 ? _errorsByPropertyName[propertyName]
                 : null;
         }
+
         protected virtual void OnErrorChanged(string propertyName)
         {
             ErrorsChanged?.Invoke(this, new DataErrorsChangedEventArgs(propertyName));
